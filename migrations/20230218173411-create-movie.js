@@ -10,18 +10,23 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       title: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       director: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       year: {
+        allowNull: false,
         type: Sequelize.INTEGER
       },
       decade: {
+        allowNull: false,
         type: Sequelize.INTEGER
       },
       actor: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       createdAt: {
